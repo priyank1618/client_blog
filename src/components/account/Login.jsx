@@ -69,7 +69,7 @@ const signupInitialValues = {
     name: '',
     username: '',
     password: '',
-};
+};                  
 
 const Login = ({ isUserAuthenticated }) => {
     const [login, setLogin] = useState(loginInitialValues);
